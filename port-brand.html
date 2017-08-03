@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio</title>
+<meta charset="utf-8">
+<link href="portfolio.css" rel="stylesheet">
+<style>
+
+/* 
+orange EB5937 not used
+orange e38a38 not used
+yellow fdbe57 not used
+cream fed8a7  not used
+teal 86c5bc 		line under nav links
+teal 456F74 		another option
+ash 968772 			body text
+black 000000		wrapper bkgrd
+dark grey 1C1919  	has potential
+lite grey 403D3C	background
+   */
+   
+
+
+/* this is for the portfolio pages */
+#div-links a { display: inline;
+	list-style-type: none;
+	text-decoration: none;
+	padding: 20px;	
+	color: #968772; }
+#div-links a:link    { color: #968772; }
+#div-links a:hover   { color: #86c5bc; }
+
+#portfolio-li { display: inline-block;
+	padding-bottom: 10px;
+	margin: 30px;
+	text-align: left;
+	font-family: Helvetica, Verdana, san-serif;
+	font-size: .8em;
+	color: #968772; }
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+  <nav>
+    <ul>
+    	<p id="me"></p>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="portfolio.html" id="active">PORTFOLIO</a></li>
+		<li><a href="resume.html">RESUME</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+	</ul>
+  </nav>
+	<div id="rightcol">
+  		<header>
+   			<h1 id="top">Art Director at Large</h1>
+  			<div id="div-links">
+    			<a href="portfolio.html">&raquo; PUBLICATION</a>
+    			<a href="port-brand.html" style="color: #86c5bc"> &raquo; BRANDING</a>
+				<a href="port-ads.html"> &raquo; ADVERTISING</a><br>
+  		</header> 
+  		<main>
+    		<h2> Branding Work </h2>
+    		<li id="portfolio-li"><img src="images/bond_brand_600.png" alt="Bond Engineering"><br>
+    		Title: Bond Engineering Branding<br>Medium: Website, Logo, Advertising</br>Client: Bond Engineering<br></li>
+    		
+    		<li id="portfolio-li"><img src="images/Toddle_brand_600.png" alt="Toddletails"><br>
+    		Title: Toddletails Branding<br>Medium: Logo, Marketing Products</br>Client: Toddletails<br></li>
+			
+    		<li id="portfolio-li"><img src="images/logos.png" alt="Arizona Lottery Bus Wrap"><br>
+    		Title: Variety of Logos<br>Medium: Signage, Print</br>Client: Various<br></li>			
+
+			<p><a href="#top" style="font-style: italic; color: #86c5bc; text-decoration: none;">Back to Top</a>
+			</p>
+			</div> 
+		<footer>Copyright &copy; 2016 Sharon Tender </footer>
+    </main>
+  </div>
+</div>
+</body>
+</html>
